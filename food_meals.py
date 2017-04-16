@@ -6,6 +6,9 @@ category in the form of python dictionary data type.
 
 """
 food_drinks = {
+    ('bread, bakery', 'хлеб, выпечка'): {},
+    ('canned, jarred', 'консервированные продукты'): {},
+    ('dairy', 'молочные продукты'): {},
 }
 meals = {
     ('Europe', 'Европа'): {
