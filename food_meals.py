@@ -1,14 +1,83 @@
 # -*- coding: utf-8 -*-
-"""'Food, meals' part of product categories dictionary.
+"""'food, meals' part of product categories dictionary.
 
-Must hold subcategories of 'Food, meals'
+Must hold subcategories of 'food, meals'
 category in the form of python dictionary data type.
 
 """
 food_drinks = {
+    ('coffee, tea, beverages', 'чай, кофе, напитки'): {
+        ('beer, wine, spirits', 'пиво, вино'): {},
+        ('coffee', 'кофе'): {
+            ('creamers, syrups', 'кремы, сиропы'): {},
+            ('filters, supplies', 'фильтры, расходные'): {},
+            ('ground coffee', 'молотый кофе'): {},
+            ('instant coffee', 'растворимый кофе'): {},
+            ('freshly made coffee', 'свежесваренный кофе'): {},
+            ('coffee beans', 'кофе в зёрнах'): {},
+        },
+        ('hot cocoa', 'какао'): {},
+        ('juice', 'соки'): {},
+        ('soft drinks', 'безалкогольные напитки'): {},
+        ('sports, energy drinks', 'спортивные, энергетические напитки'): {},
+        ('tea', 'чай'): {},
+        ('water', 'вода'): {},
+    },
     ('bread, bakery', 'хлеб, выпечка'): {},
-    ('canned, jarred', 'консервированные продукты'): {},
-    ('dairy', 'молочные продукты'): {},
+    ('canned, jarred', 'консервированные продукты'): {
+        ('pickles', 'соленья'): {},
+        ('jams', 'варенья'): {},
+        ('canned meat, poultry', 'консервы из мяса, птицы'): {},
+        ('canned fish', 'консервы из рыбы'): {},
+    },
+    ('dairy, eggs', 'молочные продукты, яйца'): {
+        ('milk', 'молоко'): {},
+        ('cream', 'сливки'): {},
+        ('sour cream', 'сметана'): {},
+        ('yogurt', 'йгурт, кефир'): {},
+        ('butter', 'сливочное масло'): {},
+        ('cheese', 'сыр'): {},
+        ('cottage cheese', 'творог'): {},
+    },
+    ('dry beans, grains, pasta', 'бобовые, крупы, макароны'): {
+        ('pasta', 'макароны'): {},
+        ('noodles', 'лапша'): {},
+        ('spaghetti', 'спагетти'): {},
+        ('buckwheat', 'крупа гречневая'): {},
+        ('rice', 'рис'): {},
+        ('beans', 'бобовые'): {},
+    },
+    ('cooking, baking', 'приготовление пищи'): {
+        ('condensed, powdered milk', 'сгущенное, сухое молоко'): {},
+        ('flours', 'мука'): {},
+        ('cooking oil, vinegars', 'растительное масло, уксус'): {},
+        ('baking soda', 'пищевая сода'): {},
+        ('sugar, sweeteners', 'сахар, подсластители'): {},
+        ('cocoa', 'какао'): {},
+        ('baking mixes', 'смеси для выпечки'): {},
+        ('doughs, crusts', 'тесто, коржи'): {},
+        ('yeasts', 'дрожжи'): {},
+        ('herbs, spices', 'травы, специи'): {},
+        ('sauces', 'соусы'): {},
+        ('honey', 'мёд'): {},
+        ('mayonnaise', 'майонез'): {},
+        ('salad dressings', 'заправки для салатов'): {},
+        ('ketchup', 'кетчуп'): {},
+        ('mustard', 'горчица'): {},
+        ('wasabi', 'васаби'): {},
+    },
+    ('meat, poultry, fish', 'мясо, птица, рыба'): {},
+    ('produce', 'продукты сада, огорода'): {
+        ('dried fruits', 'сухофрукты'): {},
+        ('nuts, seeds', 'орехи, семена'): {
+            # ('coconut flakes', 'кокосовая стружка'): {},
+        },
+        ('fruits', 'фрукты'): {},
+        ('vegetables', 'овощи'): {},
+        ('exotic fruits', 'экзотические фрукты'): {},
+        ('berries', 'ягоды'): {},
+        ('herbs', 'зелень'): {},
+    },
 }
 meals = {
     ('Europe', 'Европа'): {
