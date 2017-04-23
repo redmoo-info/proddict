@@ -237,7 +237,7 @@ meals = {
             },
             ('Maldives', 'Малдивы'): {},
             ('Nepal', 'Непал'): {},
-            ('Pakistan', ): {
+            ('Pakistan', 'Пакистан'): {
                 ('Baloch', 'Baloch'): {},
                 ('Kashmir', 'Kashmir'): {},
                 ('Pashtun', 'Pashtun'): {},
@@ -247,7 +247,7 @@ meals = {
                 ('Mughlai', 'Mughlai'): {},
                 ('Sindh', 'Sindh'): {},
             },
-            ('Sri Lanka', ): {},
+            ('Sri Lanka', 'Шри Ланка'): {},
         },
     },
     ('Middle East', 'Средний Восток'): {
